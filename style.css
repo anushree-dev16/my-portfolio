@@ -80,6 +80,32 @@ section {
         font-size: 26px;
     }
 }
+#skills {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#skills h2 {
+    color: #527568;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #e5eee8;
+    color: #527568;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+}
 footer {
     background-color: #527568;
     color: white;
